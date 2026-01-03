@@ -82,7 +82,7 @@ public class RMIClient extends JFrame {
         roomNumberField = new JTextField(15);
         searchButton = new JButton("Search");
         searchButton.setBackground(new Color(46, 204, 113));
-        searchButton.setForeground(Color.WHITE);
+        searchButton.setForeground(Color.BLACK);
         
         // Add dropdown for quick selection
         try {
@@ -113,7 +113,7 @@ public class RMIClient extends JFrame {
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 10));
         showAllButton = new JButton("Show All Rooms");
         showAllButton.setBackground(new Color(52, 152, 219));
-        showAllButton.setForeground(Color.WHITE);
+        showAllButton.setForeground(Color.BLACK);
         buttonPanel.add(showAllButton);
         
         // Result area
