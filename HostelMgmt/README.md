@@ -41,8 +41,8 @@ In real distributed systems, not all data needs persistent storage. In-memory st
 ## Architecture
 
 ```
-┌─────────────────┐         RMI Registry         ┌─────────────────┐
-│   RMI Client    │◄───────(Port 1099)──────────►│   RMI Server    │
+┌─────────────────┐         RMI Registry          ┌─────────────────┐
+│   RMI Client    │◄───────(Port 1099)──────────► │   RMI Server    │
 │   (Swing UI)    │                               │                 │
 │                 │    Remote Method Calls        │                 │
 │  - Search Room  │◄─────────────────────────────►│ RoomServiceImpl │
@@ -277,7 +277,3 @@ This application demonstrates a practical, usable distributed system for hostel 
 The design prioritizes simplicity, usability, and clear demonstration of distributed systems concepts, making it ideal for educational purposes while remaining practical enough for real-world inspiration.
 
 ---
-
-**Group B - Java RMI Module**  
-Hostel Room Information Service  
-Distributed Systems Lab
